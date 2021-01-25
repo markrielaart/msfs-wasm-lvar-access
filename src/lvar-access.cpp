@@ -110,11 +110,7 @@ static void FSAPI EventHandler(ID32 event, UINT32 evdata, PVOID userdata) {
 	switch (event) {
 	case 0x11000: {
 		// Press MCDU button DIR
-		FLOAT64* a;
-		SINT32* b;
-		PCSTRINGZ* c;
-		//execute_calculator_code("(>H:A320_Neo_CDU_1_BTN_DIR)", a, b, c);
-		execute_calculator_code(MCDU_BUTTONS[evdata], a, b, c);
+		execute_calculator_code(MCDU_BUTTONS[evdata], nullptr, nullptr, nullptr);
 		break;
 	}
 	case 0x11001: {
