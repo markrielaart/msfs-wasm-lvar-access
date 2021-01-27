@@ -101,6 +101,7 @@ PCSTRINGZ MCDU_BUTTONS[71] = {
 	"(>H:A320_Neo_CDU_1_BTN_CLR)",
 	"(>H:A320_Neo_CDU_1_BTN_BRT_S1)", // Experimental brightness increase (INOP)
 	"(>H:A320_Neo_CDU_1_BTN_DIM_S2)", // Experimental brightness decrease (INOP).
+	"(>H:A320_Neo_CDU_1_BTN_DOT)",
 };
 
 
