@@ -29,7 +29,7 @@ PCSTRINGZ LVAR_EFIS_PANEL[] = {
 };
 
 // MCDU Button calculator codes.
-PCSTRINGZ MCDU_BUTTONS[71] = {
+PCSTRINGZ MCDU_BUTTONS[] = {
 	"(>H:A320_Neo_CDU_1_BTN_0)",
 	"(>H:A320_Neo_CDU_1_BTN_1)",
 	"(>H:A320_Neo_CDU_1_BTN_2)",
